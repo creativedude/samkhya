@@ -161,4 +161,14 @@ input[type=checkbox]:checked ~ .menu {
       }
     }
   }
+  @include breakpoint(1000px) {
+    .logo {
+      max-width:200px;
+    }
+    .navlist {
+      a {
+        font-size:0.7rem;
+      }
+    }
+  }
 }

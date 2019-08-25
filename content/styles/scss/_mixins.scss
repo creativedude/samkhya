@@ -60,7 +60,7 @@
 // @include breakpoint('40em');
 
 @mixin breakpoint($size) {
-  @media only screen and (min-width: $size) {
+  @media only screen and (max-width: $size) {
     @content;
   }
 }
