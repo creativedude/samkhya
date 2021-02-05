@@ -1,4 +1,4 @@
-# NML front-end framework (bye Bootstrap)
+# Samkhya stire
 
 ## Requirements
 
